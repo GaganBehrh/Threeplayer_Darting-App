@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.container {
+  background-color: chocolate;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 40px;
+  margin-top: 100px;
+}
+button {
+  border: 400px;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  color: black;
+  background-color: greenyellow;
+  border-radius: 20px;
+}
+#button1 {
+  text-decoration: none;
+}
+.container-2player {
+  height: 13cm;
+  max-width: 600px;
+  padding: 200px;
+  border-color: brown;
+  background-color: blanchedalmond;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  margin-top: 100px;
+}
+#ply1crntscr {
+  font-style: bold;
+}
+
+#ply2crntscr {
+  font-style: bold;
+}
+#ply3crntscr {
+  font-style: bold;
+}
+#maxscorep1 {
+  text-align: center;
+}
+
+#oneplayer {
+  text-align: center;
+}
+#ply1cs {
+  text-align: center;
+}
+.container-2player h1 {
+  margin-top: -200px;
+}
+.second-container-2player {
+  margin-top: -150px;
+}
+
+.calculation {
+  margin-top: 30px;
+}
+.currentscore h2 {
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+#p1 {
+  margin-left: -30px;
+}
+#p2 {
+  margin-left: 80px;
+}
