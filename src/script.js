@@ -1,3 +1,13 @@
+function oneplayer_displayfunction1(event) {
+  let csply1 = parseInt(document.getElementById("ply1cs").textContent);
+  let input1 = document.getElementById("input1").value;
+  document.getElementById("plyone").innerHTML = input1;
+  let cs = csply1 - input1;
+  console.log(cs);
+  let p1cs = document.getElementById("ply1cs");
+  p1cs.innerHTML = cs;
+}
+
 // functional code for twoplayer starts here
 function twoplayer_displayfunction1(event) {
   event.preventDefault();
@@ -21,9 +31,10 @@ function twoplayer_displayfunction2(event) {
   let p2cs = document.getElementById("p2cs");
   p2cs.innerHTML = cs;
 }
-
+// functions for two player
 let submitbutton1 = document.getElementById("submitbutton1");
 submitbutton1.addEventListener("click", twoplayer_displayfunction1);
+submitbutton1.addEventListener("click", oneplayer_displayfunction1);
 
 let submitbutton2 = document.getElementById("submitbutton2");
 submitbutton2.addEventListener("click", twoplayer_displayfunction2);

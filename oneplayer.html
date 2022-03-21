@@ -14,36 +14,39 @@
     <link rel="stylesheet" href="src/style.css" type="text/css" />
   </head>
   <body>
-    <div class="container-2player">
+    <div class="container-1-player">
+      <div class="second-container-1-player">
         <div class="row">
-        <div class="col-12"><h1>P1</h1></div>
-      </div>
-      <div><h2>Total</h2></div>
-      <div class="row">
-        <div class="col-12" id="maxscorep1"><p>301</p></div>
-      </div>
-      <div class="currentscore"><h2>Score Input</h2></div>
-      <div class="row">
-        <div class="col-12" id="ply1crntscr"><p>??</p></div>
-      </div>
-      <div class="currentscore"><h2>Current Score</h2></div>
-      <div class="row">
-        <div class="col-12" id="p1cs">301</div>
-      </div>
-      <div class="calculation">
-        <div class="form-group">
-          <label for="exampleFormControlInput1"
-            >How much score player 1 made?</label
-          >
-          <div class="row">
-            <input type="text" id="input1"  placeholder="Enter score" autocapitalize="off" />
-        <input type="submit" id="submitbutton1">
+          <div class="col-12"><h1>P1</h1></div>
+        </div>
+
+        <div class="currentscore"><h2>Score Input</h2></div>
+        <div class="row">
+          <div class="col-12" id="plyone"><p>??</p></div>
+        </div>
+        <div class="currentscore"><h2>Current Score</h2></div>
+        <div class="row">
+          <div class="col-12" id="ply1cs">301</div>
+        </div>
+        <div class="calculation">
+          <div class="form-group">
+            <label for="exampleFormControlInput1"
+              >How much score player 1 made?</label
+            >
+            <div class="row">
+              <input
+                type="text"
+                id="input1"
+                placeholder="Enter score"
+                autocapitalize="off"
+              />
+              <input type="submit" id="submitbutton1" />
             </div>
-            </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
+
     <script src="src/script.js"></script>
   </body>
 </html>

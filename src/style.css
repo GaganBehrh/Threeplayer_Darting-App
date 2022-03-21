@@ -29,6 +29,23 @@ button {
 #button1 {
   text-decoration: none;
 }
+.container-1-player {
+  height: 13cm;
+  max-width: 600px;
+  padding: 200px;
+  border-color: brown;
+  background-color: blanchedalmond;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+.second-container-1-player {
+  margin-top: -200px;
+}
+#plyone {
+  margin-left: 90px;
+}
 .container-2player {
   height: 13cm;
   max-width: 600px;
