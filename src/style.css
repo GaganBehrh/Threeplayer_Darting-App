@@ -47,7 +47,7 @@ button {
   margin-left: 90px;
 }
 .container-2player {
-  height: 13cm;
+  height: 12cm;
   max-width: 600px;
   padding: 200px;
   border-color: brown;
@@ -56,6 +56,20 @@ button {
   margin: auto;
   border-radius: 40px;
   margin-top: 100px;
+}
+.container-3player {
+  height: 20cm;
+  max-width: 600px;
+  padding: 200px;
+  border-color: brown;
+  background-color: blanchedalmond;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  margin-top: 100px;
+}
+.second-container-3player {
+  margin-top: -100px;
 }
 #ply1crntscr {
   font-style: bold;

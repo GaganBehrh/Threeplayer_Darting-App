@@ -14,63 +14,74 @@
     <link rel="stylesheet" href="src/style.css" type="text/css" />
   </head>
   <body>
-    <div class="container-2player">
-        <div class="row">
+    <div class="container-3player">
+       <div class="second-container-3player">
+      <div class="row">
         <div class="col-4"><h1>P1</h1></div>
-        <div class="col-4"><h1>P2</h1></div>
-        <div class="col-4"><h1>P3</h1></div>
+        <div class="col-3"><h1>P2</h1></div>
+        <div class="col-5"><h1>P3</h1></div>
       </div>
-      <div><h2>Total</h2></div>
-      <div class="row">
-        <div class="col-4" id="maxscorep1"><p>301</p></div>
-        <div class="col-4" id="maxscorep2"><p>301</p></div>
-          <div class="col-4" id="maxscorep3"><p>301</p></div>
-         
-      </div>
-      
-      <div class="currentscore"><h2>Score Input</h2></div>
-      <div class="row">
-        <div class="col-4" id="ply1crntscr"><p>??</p></div>
-        <div class="col-4" id="ply2crntscr"><p>??</p></div>
-        <div class="col-4" id="ply3crntscr"><p>??</p></div>
-      </div>
-      <div class="currentscore"><h2>Current Score</h2></div>
-      <div class="row">
-        <div class="col-4" id="p1cs"><p>??</p></div>
-        <div class="col-4" id="p2cs"><p>??</p></div>
-           <div class="col-4" id="p3cs"><p>??</p></div>
-      </div>
-      <div class="calculation">
-        <div class="form-group">
+        <div class="currentscore"><h2>Score Input</h2>
+        <div class="row">
+          <div class="col-4" id="ply1crntscr"><p>??</p></div>
+          <div class="col-4" id="ply2crntscr"><p>??</p></div>
+          <div class="col-4" id="ply3crntscr"><p>??</p></div>
+        </div>
+        <div class="currentscore"><h2>Current Score</h2>
+        <div class="row">
+          <div class="col-4" id="p1cs">301</p></div>
+          <div class="col-4" id="p2cs">301</div>
+          <div class="col-4" id="p3cs">301</div>
+        </div>
+        <div class="calculation">
+          <div class="form-group">
             <!--Player 1 starts here-->
-          <label for="exampleFormControlInput1"
-            >How much score player 1 made?</label
+            <label for="exampleFormControlInput1"
+              >How much score player 1 made?</label
             >
-          <div class="row">
-            <input type="text" id="input1"  placeholder="Enter score" autocapitalize="off" />
-        <input type="submit" id="submitbutton1">
+            <div class="row">
+              <input
+                type="text"
+                id="input1"
+                placeholder="Enter score"
+                autocapitalize="off"
+              />
+              <input type="submit" id="submitbutton1" />
             </div>
             <!--Player 2 starts here-->
-             <label for="exampleFormControlInput1"
-            >How much score player 2 made?</label
-          >
+            <label for="exampleFormControlInput1"
+              >How much score player 2 made?</label
+            >
             <div class="row">
-            <input type="text" id="input2" placeholder="Enter score" autocapitalize="off" />
-        <input type="submit" id="submitbutton2">
+              <input
+                type="text"
+                id="input2"
+                placeholder="Enter score"
+                autocapitalize="off"
+              />
+              <input type="submit" id="submitbutton2" />
             </div>
             <!--Player 3 starts here-->
-             <label for="exampleFormControlInput1"
-            >How much score player 3 made?</label
-          >
-             <div class="row">
-            <input type="text" id="input3" placeholder="Enter score" autocapitalize="off" />
-        <input type="submit" id="submitbutton3">
+            <label for="exampleFormControlInput1"
+              >How much score player 3 made?</label
+            >
+            <div class="row">
+              <input
+                type="text"
+                id="input3"
+                placeholder="Enter score"
+                autocapitalize="off"
+              />
+              <input type="submit" id="submitbutton3" />
             </div>
-            </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
+    </div>
+    </div>
+
+
     <script src="src/script.js"></script>
   </body>
 </html>
