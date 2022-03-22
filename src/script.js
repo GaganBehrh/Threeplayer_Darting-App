@@ -6,6 +6,8 @@ function oneplayer_displayfunction1(event) {
   console.log(cs);
   let p1cs = document.getElementById("ply1cs");
   p1cs.innerHTML = cs;
+  if (cs == 0) alert("Congratulations!You won!!!!");
+  else if (cs < 0) alert("Score is negative, you cannot play further");
 }
 
 // functional code for twoplayer starts here
@@ -20,6 +22,11 @@ function twoplayer_displayfunction1(event) {
   console.log(cs);
   let p1cs = document.getElementById("p1cs");
   p1cs.innerHTML = cs;
+  if (cs == 0)
+    alert(
+      "Congratulations!You won!!!!, the other players can start playing now"
+    );
+  else if (cs < 0) alert("Score is negative, you cannot play further");
 }
 function twoplayer_displayfunction2(event) {
   event.preventDefault();
@@ -30,6 +37,11 @@ function twoplayer_displayfunction2(event) {
   console.log(cs);
   let p2cs = document.getElementById("p2cs");
   p2cs.innerHTML = cs;
+  if (cs == 0)
+    alert(
+      "Congratulations!You won!!!!, the other players can start playing now"
+    );
+  else if (cs < 0) alert("Score is negative, you cannot play further");
 }
 function threeplayer_displayfunction3(event) {
   event.preventDefault();
@@ -40,6 +52,11 @@ function threeplayer_displayfunction3(event) {
   console.log(cs);
   let p2cs = document.getElementById("p3cs");
   p2cs.innerHTML = cs;
+  if (cs == 0)
+    alert(
+      "Congratulations!You won!!!!, the other players can start playing now"
+    );
+  else if (cs < 0) alert("Score is negative, you cannot play further");
 }
 // functions for two player
 let submitbutton1 = document.getElementById("submitbutton1");
